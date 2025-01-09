@@ -1,8 +1,4 @@
-# Conditional Liquidity
-
-Conditional liquidity is an LP framework for Solana DEXs.
-
-## Segmenter Registry
+# Segmenter Registry
 
 The Segmenter Registry is an on-chain registry that tracks segmenter public keys.
 
@@ -33,5 +29,5 @@ To change the admin, use the `change_admin` instruction with the public key of t
 
 ### Developing
 1. Install Anchor (https://www.anchor-lang.com/docs/installation). Use the version specified in `Anchor.toml`.
-2. Run `yarn install`. This will install Node.js dependencies that are needed to run the integration tests.
-3. Run `anchor test`. This will build the program and run the integration tests.
+2. From the top level of the repository, run `yarn install`. This will install Node.js dependencies that are needed to run the integration tests.
+3. From the top level of the repository, run `anchor test`. This will build the program and run the integration tests.

@@ -4,7 +4,7 @@ use crate::errors::SegmenterRegistryError;
 
 const MAX_ITEMS: usize = 64;
 
-/// The registry account stores a mapping of registered segmenter accounts
+/// A registry account stores segmenter public keys
 #[account(zero_copy)]
 pub struct Registry {
     pub registered_segmenters: [Pubkey; MAX_ITEMS],
